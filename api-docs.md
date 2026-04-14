@@ -16,6 +16,11 @@ https://api.farmerdata.app/v1
 ---
 
 ## Authentication
+
+All requests require a Bearer Token:
+
+---
+
 ## Endpoints
 
 ### 1. Submit Farmer Data
@@ -35,18 +40,27 @@ Creates a new farmer record in the system.
   "location": "Nadia, West Bengal",
   "collection_date": "2023-09-15"
 }
-
 {
   "status": "success",
   "message": "Farmer data recorded successfully",
   "record_id": "REC67890"
 }
+### 2. Fetch Farmer Records
 
-| Parameter  | Type   | Description        |
-| ---------- | ------ | ------------------ |
+**GET** `/farmer-records`
+
+**Description:**  
+Retrieves farmer records based on filters.
+
+#### Query Parameters
+
+| Parameter   | Type   | Description        |
+|------------|--------|--------------------|
 | location   | string | Filter by location |
 | start_date | date   | Filter from date   |
 
+#### Response
+```json
 {
   "status": "success",
   "data": [
@@ -57,15 +71,20 @@ Creates a new farmer record in the system.
     }
   ]
 }
+### 3. Update Farmer Record
 
+**PUT** `/update-record/{record_id}`
+
+**Description:**  
+Updates an existing farmer record.
+
+#### Request Body
+```json
 {
-  "status": "error",
-  "message": "Invalid farmer ID"
+  "crop_type": "Wheat",
+  "land_size_acres": 3
 }
-
-| Code | Meaning      |
-| ---- | ------------ |
-| 400  | Bad request  |
-| 401  | Unauthorized |
-| 500  | Server error |
-
+{
+  "status": "success",
+  "message": "Record updated successfully"
+}
