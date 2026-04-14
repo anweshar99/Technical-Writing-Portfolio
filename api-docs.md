@@ -18,7 +18,7 @@ All requests require a Bearer Token.
 
 ```json
 {
-Authorization: Bearer <access_token>
+"Authorization" : "Bearer <access_token>"
 }
 ```
 
