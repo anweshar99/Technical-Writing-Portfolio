@@ -1,31 +1,40 @@
 # Editing and Clarity Improvement Sample
 
 ## Context
-This sample demonstrates how ambiguous or poorly structured technical content can be improved for clarity, readability, and accuracy without changing the original intent.
+This example demonstrates editing a technically ambiguous passage where the intent is partially unclear. The goal was to improve clarity while preserving the likely meaning based on context.
 
 ---
 
 ## Original Version
 
-The system will take the data and process it in a way that makes it usable for further usage and then after that it will be stored in database for future reference and can be accessed by user if needed.
+The system validates the data after submission and updates the status if required, but in some cases it may not reflect immediately depending on processing and users should check again later to confirm if it has been updated properly.
 
 ---
 
 ## Revised Version
 
-The system processes the input data and stores it in the database for future reference.  
-Users can access the stored data when required.
+The system validates submitted data and updates its status.
+
+In some cases, updates may not appear immediately due to processing delays.  
+Users should revisit the record later to confirm that the status has been updated.
 
 ---
 
-## Key Improvements
+## Editorial Decisions
 
-- Removed repetition ("usage", "future usage")  
-- Broke a long sentence into two shorter, clearer statements  
-- Replaced vague phrasing ("in a way that makes it usable") with direct language  
-- Improved readability while preserving original meaning  
+- Interpreted "may not reflect immediately" as a **processing delay**, not a failure  
+- Separated system behavior from user action for clarity  
+- Replaced vague phrasing ("if required", "properly") with more specific intent  
+- Split a long sentence into logical units without altering meaning  
 
 ---
 
-## Notes
-The goal of this edit was to improve clarity and readability without altering the technical intent of the original content.
+## Rationale
+
+The original sentence combined system behavior, uncertainty, and user instruction in a single structure.  
+The revision separates these concerns to improve readability and reduce ambiguity while preserving the intended meaning.
+
+---
+
+## Note
+This edit focuses on resolving ambiguity and improving clarity without introducing new technical assumptions.
