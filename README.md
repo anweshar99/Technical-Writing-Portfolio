@@ -13,4 +13,4 @@ This repository contains sample technical documentation created based on profess
 - Google Docs  
 
 ## Note
-These samples are anonymized and created for demonstration purposes only.
+These samples are created for demonstration purposes only.
