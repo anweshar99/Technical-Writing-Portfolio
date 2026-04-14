@@ -16,9 +16,11 @@ All requests require a Bearer Token.
 
 ### Header Example
 
-
-#### Authorization: Bearer <access_token>
-
+```json
+{
+Authorization: Bearer <access_token>
+}
+```
 
 ---
 
