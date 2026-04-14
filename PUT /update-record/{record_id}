@@ -1,0 +1,18 @@
+{
+  "crop_type": "Wheat",
+  "land_size_acres": 3
+}
+{
+  "status": "success",
+  "message": "Record updated successfully"
+}
+{
+  "status": "error",
+  "message": "Invalid farmer ID"
+}
+| Code | Meaning               |
+| ---- | --------------------- |
+| 400  | Bad request           |
+| 401  | Unauthorized          |
+| 404  | Not found             |
+| 500  | Internal server error |
