@@ -15,12 +15,7 @@ https://api.farmerdata.app/v1
 All requests require a Bearer Token.
 
 ### Header Example
-
-```json
-{
-"Authorization" : "Bearer <access_token>"
-}
-```
+Authorization: Bearer <access_token>
 
 ---
 
