@@ -68,6 +68,12 @@ The documentation samples focus on:
 
 ---
 
+## Documentation Maintenance
+
+- [Changelog](./CHANGELOG.md)
+
+---
+
 ## Note
 
 All samples are based on prior project experience and are anonymized for demonstration purposes.
