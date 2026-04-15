@@ -45,6 +45,7 @@ The API documentation includes the following endpoints to demonstrate structured
 - [User Guide – Mobile Data Collection App](./user-guide.md)  
 - [Editing and Clarity Improvement Sample](./editing-sample.md)  
 - [Documentation Style Guide](./style-guide.md)
+- [Changelog – Documentation Updates](./CHANGELOG.md)
 
 ---
 
@@ -53,7 +54,8 @@ The API documentation includes the following endpoints to demonstrate structured
 - **API Documentation** → Intended for developers integrating and maintaining backend services  
 - **User Guide** → Designed for field consultants with limited technical background  
 - **Editing Sample** → Demonstrates clarity improvement and ambiguity resolution  
-- **Style Guide** → Demonstrates approach to maintaining consistency in documentation  
+- **Style Guide** → Demonstrates approach to maintaining consistency in documentation
+- **Changelog** → Intended for internal stakeholders to track documentation updates and maintenance over time    
 
 ---
 
