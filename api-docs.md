@@ -5,6 +5,17 @@ This API supports a mobile application used by field consultants to collect and 
 
 ---
 
+## Data Flow
+
+```mermaid
+flowchart LR
+    A[Field Consultant - Mobile App] --> B[API Server]
+    B --> C[Validation Layer]
+    C --> D[Database]
+    D --> B
+    B --> A
+```
+
 ## Base URL
 https://api.farmerdata.app/v1
 
