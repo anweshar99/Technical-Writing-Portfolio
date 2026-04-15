@@ -50,13 +50,16 @@ In some cases, edit access may still depend on the record status.
 ### Editorial Decisions
 
 - Identified conflicting rules around edit permissions  
-- Introduced a **clear sequence**: editable → finalized → reopened  
-- Retained ambiguity around "depending on status" without over-specifying  
+- Introduced a clear sequence: editable → finalized → reopened  
+- Retained the condition "depending on status" as the source did not define which statuses allow editing  
+- Avoided over-specifying system behavior to prevent introducing assumptions not present in the original content    
 
 ### Rationale
 
-The original version presented overlapping conditions without hierarchy.  
-The revision introduces order and structure while preserving the possibility of conditional exceptions.
+The original version presented overlapping conditions without hierarchy.
+The revision introduces a clear sequence of actions while preserving an unresolved dependency on record status.  
+The source content did not specify which statuses allow editing, and adding that detail would risk introducing inaccurate or assumed behavior.
+This edit prioritizes structural clarity while deliberately preserving areas where the original intent is undefined.
 
 **Risk if unedited:** Users may be unclear about when records can be edited, potentially leading to incorrect assumptions about permissions or data loss.
 
