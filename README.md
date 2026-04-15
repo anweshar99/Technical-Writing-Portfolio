@@ -70,7 +70,7 @@ The documentation samples focus on:
 
 ## Documentation Maintenance
 
-- [Changelog](./CHANGELOG.md)
+- [Changelog](change-log.md)
 
 ---
 
