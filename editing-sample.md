@@ -93,6 +93,42 @@ The revision provides structured guidance without overstepping technical assumpt
 
 ---
 
+## Case 4: Incoherent Workflow Description (Engineer Draft)
+
+### Original Version
+
+When the user is entering the data in the app it is getting saved sometimes automatically but also user needs to submit it and after that system will check the values and if something is not proper then it might show error but sometimes it is not showing immediately and user keeps trying again and again and it can create duplicate entries also if network is slow then data is syncing later and user may not know if it is already saved or not so they keep doing it multiple times.
+
+### Revised Version
+
+Data entered in the app may be saved automatically or submitted manually by the user.
+
+After submission, the system validates the input and displays an error if the data is invalid.  
+In some cases, error messages may not appear immediately due to processing or network delays.
+
+If the network is slow, data may sync later. Users should verify whether a record has already been saved before submitting again to avoid duplicate entries.
+
+### Editorial Decisions
+
+- Separated multiple ideas (data entry, validation, errors, syncing) into distinct steps  
+- Interpreted delayed error visibility as a result of processing or network latency  
+- Clarified the risk of duplicate entries caused by repeated submissions  
+- Converted informal phrasing ("not proper", "keeps trying again and again") into precise language  
+- Structured the flow to reflect the actual user journey  
+
+### Rationale
+
+The original paragraph combined multiple system behaviors and user actions without structure, making it difficult to understand the workflow.
+
+The revision organizes the content into logical stages: data entry, validation, error handling, and synchronization.  
+Ambiguity around delayed responses was preserved but clarified as likely caused by processing or network conditions, without introducing unsupported assumptions.
+
+### Risk if Unedited
+
+Users may repeatedly submit data due to unclear system feedback, leading to duplicate records and data inconsistency.
+
+---
+
 ## Summary of Approach
 
 Across these examples, the focus was to:
