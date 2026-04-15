@@ -1,5 +1,9 @@
 # Changelog
 
+This changelog documents revisions to structure, clarity, and content across documentation files, highlighting an iterative and maintenance-driven approach to technical writing.
+
+---
+
 ## v1.2 – Documentation Enhancements
 - Added API endpoint details (GET, POST, PUT)
 - Included request/response examples
