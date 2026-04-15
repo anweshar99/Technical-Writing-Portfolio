@@ -28,6 +28,19 @@ Authorization: Bearer <access_token>
 **Description:**  
 Creates a new farmer record.
 
+#### Request Parameters
+
+| Field             | Type   | Required | Description                     |
+|------------------|--------|----------|---------------------------------|
+| farmer_id        | string | Yes      | Unique identifier for the farmer |
+| name             | string | Yes      | Name of the farmer              |
+| crop_type        | string | Yes      | Type of crop cultivated         |
+| land_size_acres  | number | Yes      | Size of land in acres           |
+| location         | string | No       | Farmer’s location               |
+| collection_date  | date   | Yes      | Date of data collection         |
+
+All required fields must be included in the request body. Optional fields may be omitted if not available.
+
 #### Request Body
 
 ```json
