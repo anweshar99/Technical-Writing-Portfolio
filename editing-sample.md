@@ -123,9 +123,7 @@ The original paragraph combined multiple system behaviors and user actions witho
 The revision organizes the content into logical stages: data entry, validation, error handling, and synchronization.  
 Ambiguity around delayed responses was preserved but clarified as likely caused by processing or network conditions, without introducing unsupported assumptions.
 
-### Risk if Unedited
-
-Users may repeatedly submit data due to unclear system feedback, leading to duplicate records and data inconsistency.
+**Risk if unedited:** Users may repeatedly submit data due to unclear system feedback, leading to duplicate records and data inconsistency.
 
 ---
 
